@@ -1,0 +1,194 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC3",
+      "max": [
+        2.5075440406799316,
+        3.509270191192627,
+        0.059170499444007874
+      ],
+      "min": [
+        -0.0369417667388916,
+        -0.0015689098509028554,
+        -0.0591709166765213
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -8.9518908907848527E-07,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC2",
+      "max": [
+        0.57470512390136719,
+        0.95054101943969727
+      ],
+      "min": [
+        0.054664216935634613,
+        0.65469801425933838
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 264,
+      "type": "SCALAR",
+      "max": [
+        175.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "fence_short_spike.bin",
+      "byteLength": 8712
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2112,
+      "byteLength": 2112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4224,
+      "byteLength": 2816
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7040,
+      "byteLength": 1408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8448,
+      "byteLength": 264
+    }
+  ],
+  "images": [
+    {
+      "uri": "Props.png",
+      "name": "Props"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "props"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "fence_short_spike"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        -93.0,
+        0.0,
+        -25.01331
+      ],
+      "name": "fence_short_spike"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "fence_short_spike"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Props"
+    }
+  ]
+}
