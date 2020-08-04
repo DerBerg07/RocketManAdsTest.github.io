@@ -1,0 +1,191 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 308,
+      "type": "VEC3",
+      "max": [
+        2.0217647552490234,
+        2.7973604202270508,
+        1.836115837097168
+      ],
+      "min": [
+        -2.0217647552490234,
+        -2.79736065864563,
+        -1.836115837097168
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 308,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 308,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 308,
+      "type": "VEC2",
+      "max": [
+        0.93854701519012451,
+        0.89920693635940552
+      ],
+      "min": [
+        0.056278552860021591,
+        0.074381366372108459
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 462,
+      "type": "SCALAR",
+      "max": [
+        307.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2019.3.12f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "tree_large_mesh.bin",
+      "byteLength": 16632
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3696
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3696,
+      "byteLength": 3696
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7392,
+      "byteLength": 4928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12320,
+      "byteLength": 2464
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14784,
+      "byteLength": 1848
+    }
+  ],
+  "images": [
+    {
+      "uri": "Nature_Trees.jpg",
+      "name": "Nature_Trees"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true,
+      "name": "Nature"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "tree_large_mesh"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        -92.1551743,
+        0.207731247,
+        -9.531431
+      ],
+      "name": "tree_large_mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "tree_large_mesh"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Nature_Trees"
+    }
+  ]
+}
