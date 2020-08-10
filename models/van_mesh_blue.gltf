@@ -1,0 +1,185 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 502,
+      "type": "VEC3",
+      "max": [
+        1.7184462547302246,
+        2.8570175170898438,
+        2.8089075088500977
+      ],
+      "min": [
+        -1.7184462547302246,
+        -0.0019447871018201113,
+        -2.8089075088500977
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 502,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 502,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 502,
+      "type": "VEC2",
+      "max": [
+        0.99276405572891235,
+        0.98704987764358521
+      ],
+      "min": [
+        0.020275000482797623,
+        0.024979367852211
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 930,
+      "type": "SCALAR",
+      "max": [
+        501.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2019.3.12f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "van_mesh_blue.bin",
+      "byteLength": 27816
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6024
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6024,
+      "byteLength": 6024
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12048,
+      "byteLength": 8032
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20080,
+      "byteLength": 4016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24096,
+      "byteLength": 3720
+    }
+  ],
+  "images": [
+    {
+      "uri": "Vehicle_Van_a.jpg",
+      "name": "Vehicle_Van_a"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Vehicle_Van_Blue"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "van_mesh_blue"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "van_mesh_blue"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "van_mesh_blue"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Vehicle_Van_a"
+    }
+  ]
+}
